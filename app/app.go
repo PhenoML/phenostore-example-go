@@ -97,7 +97,7 @@ func (a *App) searchByPatient(ctx context.Context, resourceType, patientID strin
 	}
 	resp, err := a.Client.Inner().SearchResourcesWithResponse(
 		ctx, a.Client.Tenant(), a.Client.Store(),
-		gen.SearchResourcesParamsResourceType(resourceType), params,
+		gen.ResourceType(resourceType), params,
 		func(ctx context.Context, req *http.Request) error {
 			q := req.URL.Query()
 			q.Set("patient", patientID)
@@ -125,7 +125,7 @@ func (a *App) searchCarePlans(ctx context.Context, patientID string) ([]json.Raw
 	}
 	resp, err := a.Client.Inner().SearchResourcesWithResponse(
 		ctx, a.Client.Tenant(), a.Client.Store(),
-		gen.SearchResourcesParamsResourceType("CarePlan"), params,
+		gen.ResourceType("CarePlan"), params,
 		func(ctx context.Context, req *http.Request) error {
 			q := req.URL.Query()
 			q.Set("patient", patientID)
@@ -167,7 +167,7 @@ func (a *App) searchByTag(ctx context.Context, resourceType, tag string) ([]stri
 	}
 	resp, err := a.Client.Inner().SearchResourcesWithResponse(
 		ctx, a.Client.Tenant(), a.Client.Store(),
-		gen.SearchResourcesParamsResourceType(resourceType), params,
+		gen.ResourceType(resourceType), params,
 		func(ctx context.Context, req *http.Request) error {
 			q := req.URL.Query()
 			q.Set("_tag", tag)
