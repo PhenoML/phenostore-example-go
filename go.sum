@@ -80,8 +80,8 @@ github.com/muesli/termenv v0.16.0 h1:S5AlUN9dENB57rsbnkPyfdGuWIlkmzJjbFf0Tf5FWUc
 github.com/muesli/termenv v0.16.0/go.mod h1:ZRfOIKPFDYQoDFF4Olj7/QJbW60Ol/kL1pU3VfY/Cnk=
 github.com/oapi-codegen/runtime v1.1.2 h1:P2+CubHq8fO4Q6fV1tqDBZHCwpVpvPg7oKiYzQgXIyI=
 github.com/oapi-codegen/runtime v1.1.2/go.mod h1:SK9X900oXmPWilYR5/WKPzt3Kqxn/uS/+lbpREv+eCg=
-github.com/phenoml/phenostore-sdk-go v0.0.2 h1:21pkwnt6Os9JNegGsNK9AjlYQlZbBIOHYnueyjy9mDc=
-github.com/phenoml/phenostore-sdk-go v0.0.2/go.mod h1:GJOaA78FbXAfYM14e9tJ4siuT47x1uwnlbkF/cXI56w=
+github.com/phenoml/phenostore-sdk-go v0.1.0 h1:GDsnUzlXsukzupqOn7mQpuCrNJRWOKel33dhCkZFHsE=
+github.com/phenoml/phenostore-sdk-go v0.1.0/go.mod h1:GJOaA78FbXAfYM14e9tJ4siuT47x1uwnlbkF/cXI56w=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/rivo/uniseg v0.4.7 h1:WUdvkW8uEhrYfLC4ZzdpI2ztxP1I582+49Oc5Mq64VQ=

@@ -9,7 +9,7 @@ require (
 	github.com/charmbracelet/huh/spinner v0.0.0-20260223110133-9dc45e34a40b
 	github.com/charmbracelet/lipgloss v1.1.0
 	github.com/joho/godotenv v1.5.1
-	github.com/phenoml/phenostore-sdk-go v0.0.2
+	github.com/phenoml/phenostore-sdk-go v0.1.0
 )
 
 require (

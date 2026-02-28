@@ -356,7 +356,7 @@ func (a *App) ClinicDashboard() {
 			}
 			resp, err := a.Client.Inner().SearchResourcesWithResponse(
 				ctx, a.Client.Tenant(), a.Client.Store(),
-				gen.SearchResourcesParamsResourceType("CarePlan"), params,
+				gen.ResourceType("CarePlan"), params,
 				func(ctx context.Context, req *http.Request) error {
 					q := req.URL.Query()
 					q.Set("status", "active")
