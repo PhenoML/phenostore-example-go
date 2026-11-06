@@ -6,7 +6,7 @@ Demonstrates FHIR resource CRUD, search with query parameters, transaction bundl
 
 ## Prerequisites
 
-- Go 1.25.7+
+- Go 1.27.3+
 - A PhenoStore account with a configured tenant and store
 
 ## Configuration
